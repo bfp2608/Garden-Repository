@@ -1,1 +1,14 @@
-/.idea/
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Maven
+target/
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
