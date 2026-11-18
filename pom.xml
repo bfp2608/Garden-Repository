@@ -8,7 +8,7 @@
 
     <groupId>com.github.bfp2608</groupId>
     <artifactId>garden</artifactId>
-    <version>0.1.4</version>
+    <version>0.1.5</version>
     <packaging>pom</packaging>
 
 </project>
