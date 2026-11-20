@@ -1,5 +1,10 @@
 jdk:
   - openjdk25
 
+before_install:
+  - wget https://archive.apache.org/dist/maven/maven-3/3.9.9/binaries/apache-maven-3.9.9-bin.tar.gz
+  - tar -xzf apache-maven-3.9.9-bin.tar.gz
+  - export PATH="$PWD/apache-maven-3.9.9/bin:$PATH"
+
 install:
   - mvn org.apache.maven.plugins:maven-install-plugin:3.1.4:install-file "-Dfile=Garden v0.1.9.jar" -DgroupId=com.github.bfp2608 -DartifactId=Garden-Repository -Dversion=$VERSION -Dpackaging=jar -DgeneratePom=true
