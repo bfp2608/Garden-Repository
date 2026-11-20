@@ -2,4 +2,4 @@ jdk:
   - openjdk25
 
 install:
-  - mvn org.apache.maven.plugins:maven-install-plugin:3.1.4:install-file "-Dfile=Garden v0.1.8.jar" -DgroupId=com.github.bfp2608 -DartifactId=Garden-Repository -Dversion=$VERSION -Dpackaging=jar -DgeneratePom=true
+  - mvn org.apache.maven.plugins:maven-install-plugin:3.1.4:install-file "-Dfile=Garden v0.1.9.jar" -DgroupId=com.github.bfp2608 -DartifactId=Garden-Repository -Dversion=$VERSION -Dpackaging=jar -DgeneratePom=true
